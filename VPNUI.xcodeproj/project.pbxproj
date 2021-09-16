@@ -11,6 +11,9 @@
 		384D28DE26F225590052DD27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D28DD26F225590052DD27 /* ContentView.swift */; };
 		384D28E026F2255B0052DD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384D28DF26F2255B0052DD27 /* Assets.xcassets */; };
 		384D28E326F2255B0052DD27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384D28E226F2255B0052DD27 /* Preview Assets.xcassets */; };
+		384D28EE26F23EBA0052DD27 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D28ED26F23EBA0052DD27 /* Home.swift */; };
+		384D28F026F394190052DD27 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D28EF26F394190052DD27 /* CustomCorners.swift */; };
+		384D28F226F398320052DD27 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D28F126F398320052DD27 /* Server.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		384D28DF26F2255B0052DD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384D28E226F2255B0052DD27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		384D28E426F2255B0052DD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384D28ED26F23EBA0052DD27 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		384D28EF26F394190052DD27 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		384D28F126F398320052DD27 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		384D28DA26F225590052DD27 /* VPNUI */ = {
 			isa = PBXGroup;
 			children = (
+				384D28EC26F23D890052DD27 /* Model */,
+				384D28EB26F23D730052DD27 /* View */,
+				384D28EA26F23D670052DD27 /* ViewModel */,
 				384D28DB26F225590052DD27 /* VPNUIApp.swift */,
 				384D28DD26F225590052DD27 /* ContentView.swift */,
 				384D28DF26F2255B0052DD27 /* Assets.xcassets */,
@@ -67,6 +76,30 @@
 				384D28E226F2255B0052DD27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		384D28EA26F23D670052DD27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		384D28EB26F23D730052DD27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				384D28ED26F23EBA0052DD27 /* Home.swift */,
+				384D28EF26F394190052DD27 /* CustomCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		384D28EC26F23D890052DD27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				384D28F126F398320052DD27 /* Server.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D28F226F398320052DD27 /* Server.swift in Sources */,
 				384D28DE26F225590052DD27 /* ContentView.swift in Sources */,
+				384D28F026F394190052DD27 /* CustomCorners.swift in Sources */,
+				384D28EE26F23EBA0052DD27 /* Home.swift in Sources */,
 				384D28DC26F225590052DD27 /* VPNUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
